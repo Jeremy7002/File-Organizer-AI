@@ -1,0 +1,13 @@
+{
+  "source_directory": "tests/test_files",
+  "destination_directory": "organized_files",
+
+  "categories": {
+    "Images": [".jpg", ".jpeg", ".png", ".gif"],
+    "Documents": [".pdf", ".docx", ".txt", ".pptx"],
+    "Music": [".mp3", ".wav"],
+    "Videos": [".mp4", ".mkv"],
+    "Archives": [".zip", ".rar"],
+    "Others":[]
+  }
+}
