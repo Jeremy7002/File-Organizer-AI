@@ -20,8 +20,8 @@ def main():
 
     source_directory = config["source_directory"]
     destination_directory = config["destination_directory"]
-    categories = config["categories"]  # Optional: if you plan to customize categories
-
+    categories = config["categories"] # Not currently used, but can be for future enhancements
+    
     # Scan for files
     files = scan_directory(source_directory)
 
