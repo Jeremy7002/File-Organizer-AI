@@ -12,6 +12,6 @@ env/
 # VS Code settings
 .vscode/
 
-# System files
+# System Files
 .DS_Store
 Thumbs.db
