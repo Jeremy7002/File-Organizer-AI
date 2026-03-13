@@ -1,7 +1,11 @@
-import json
 import os
+from organizer.scanner import scan_directory
+from organizer.classifier import classify_file
+from organizer.mover import move_file
+from organizer.logger import log_action
+import json
 
-
+# Load configuration
 def load_config(config_path="config/config.json"):
     """
     Loads configuration from JSON file.
@@ -10,19 +14,32 @@ def load_config(config_path="config/config.json"):
         config = json.load(file)
     return config
 
-
 def main():
-    # Load configuration
+    # Load config
     config = load_config()
 
     source_directory = config["source_directory"]
     destination_directory = config["destination_directory"]
-    categories = config["categories"]
+    categories = config["categories"]  # Optional: if you plan to customize categories
 
-    print("Source Directory:", source_directory)
-    print("Destination Directory:", destination_directory)
-    print("Categories:", categories)
+    # Scan for files
+    files = scan_directory(source_directory)
 
+    # Process each file
+    for file_path in files:
+        # Classify the file
+        category = classify_file(file_path)
+
+        # Move the file safely to the destination
+        new_path = move_file(file_path, category, destination_directory)
+
+        # Log the action
+        log_action(file_path, category, new_path)
+
+        # Optional: print to console
+        print(f"Moved '{file_path}' → '{new_path}' (Category: {category})")
+
+    print("\n File(s) successfully organized!")
 
 if __name__ == "__main__":
     main()
