@@ -8,6 +8,7 @@
     "Music": [".mp3", ".wav"],
     "Videos": [".mp4", ".mkv"],
     "Archives": [".zip", ".rar"],
+    "Code": [".py", ".js", ".html", ".css",".cpp"],
     "Others":[]
   }
 }
