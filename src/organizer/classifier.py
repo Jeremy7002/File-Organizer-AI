@@ -1,5 +1,5 @@
 import os
-
+import json
 
 def classify_file(file_path):
     """
@@ -10,25 +10,14 @@ def classify_file(file_path):
     _, extension = os.path.splitext(file_path)
 
     extension = extension.lower()
+    # Load categories from config
+    with open("config/config.json", "r") as file:
+        config = json.load(file)
+        categories = config["categories"]
 
     # Classification rules
-    if extension in [".jpg", ".jpeg", ".png", ".gif"]:
-        return "Images"
+    for category, ext_list in categories.items():
+        if extension in ext_list:
+            return category
 
-    elif extension in [".pdf", ".doc", ".docx", ".txt"]:
-        return "Documents"
-
-    elif extension in [".mp4", ".mkv", ".avi"]:
-        return "Videos"
-
-    elif extension in [".mp3", ".wav"]:
-        return "Audio"
-
-    elif extension in [".py", ".java", ".c", ".cpp"]:
-        return "Code"
-
-    elif extension in [".zip", ".rar"]:
-        return "Archives"
-    
-    else:
-        return "Others"
+    return "Others"

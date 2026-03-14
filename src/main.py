@@ -2,7 +2,7 @@ import os
 from organizer.scanner import scan_directory
 from organizer.classifier import classify_file
 from organizer.mover import move_file
-from organizer.logger import log_action
+from organizer.logger import log_action, log_new_run
 import json
 
 # Load configuration
@@ -16,6 +16,7 @@ def load_config(config_path="config/config.json"):
 
 def main():
     # Load config
+    log_new_run()  # Log the start of a new run
     config = load_config()
 
     source_directory = config["source_directory"]
@@ -37,7 +38,7 @@ def main():
         log_action(file_path, category, new_path)
 
         # Optional: print to console
-        print(f"Moved '{file_path}' → '{new_path}' (Category: {category})")
+        print(f"Moved '{file_path}' -> '{new_path}' (Category: {category})")
 
     print("\n File(s) successfully organized!")
 
