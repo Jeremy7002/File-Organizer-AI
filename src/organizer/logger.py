@@ -3,8 +3,8 @@ from datetime import datetime
 
 # Optional: store logs in a 'logs' folder
 LOG_FOLDER = "logs"
-if not os.path.exists(LOG_FOLDER):
-    os.makedirs(LOG_FOLDER)
+
+os.makedirs(LOG_FOLDER, exist_ok=True)
 
 LOG_FILE = os.path.join(LOG_FOLDER, "organizer.log")
 

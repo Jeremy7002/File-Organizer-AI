@@ -6,7 +6,7 @@
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
     "Documents": [".pdf", ".docx", ".txt", ".pptx"],
     "Music": [".mp3", ".wav",".flac", ".aac"],
-    "Videos": [".mp4", ".mkv",".avi",".mov",".webm",".mkv"],
+    "Videos": [".mp4",".avi",".mov",".webm",".mkv"],
     "Archives": [".zip", ".rar",".7z",".tar",".gz",".iso",".jar"],
     "Code": [".py", ".js",".html", ".css",".cpp", ".java", ".c",".cs",".rb",".go",".php",".ts"]
   }

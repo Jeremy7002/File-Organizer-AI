@@ -37,9 +37,6 @@ def main():
         # Log the action
         log_action(file_path, category, new_path)
 
-        # Optional: print to console
-        print(f"Moved '{file_path}' -> '{new_path}' (Category: {category})")
-
     print("\n File(s) successfully organized!")
 
 if __name__ == "__main__":
