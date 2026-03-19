@@ -1,24 +1,12 @@
-import os
-import json
+from organizer.models import ClassificationResult
 
-# Load categories from config
-with open("config/config.json", "r") as file:
-    config = json.load(file)
-    categories = config["categories"]
+class RuleBasedClassifier:
+    def __init__(self, categories):
+        self.categories = categories
 
-def classify_file(file_path):
-    """
-    Determines the category of a file based on its extension.
-    """
+    def classify(self, file_record):
+        for category, ext_list in self.categories.items():
+            if file_record.extension in ext_list:
+                return ClassificationResult(category, 1.0)
 
-    # Extract file extension
-    _, extension = os.path.splitext(file_path)
-
-    extension = extension.lower()
-
-    # Classification rules
-    for category, ext_list in categories.items():
-        if extension in ext_list:
-            return category
-
-    return "Others"
+        return ClassificationResult("Others", 0.5)

@@ -1,12 +1,14 @@
 import os
 from organizer.scanner import scan_directory
-from organizer.classifier import classify_file
+from organizer.classifier import RuleBasedClassifier
 from organizer.mover import move_file
 from organizer.logger import log_action, log_new_run
+from organizer.models import FileRecord
+from organizer.decisions import should_move
 import json
 
 # Load configuration
-def load_config(config_path="config/config.json"):
+def load_config(config_path="config/rules.json"):
     """
     Loads configuration from JSON file.
     """
@@ -21,21 +23,29 @@ def main():
 
     source_directory = config["source_directory"]
     destination_directory = config["destination_directory"]
-    categories = config["categories"] # Not currently used, but can be for future enhancements
+    categories = config["categories"] 
     
     # Scan for files
     files = scan_directory(source_directory)
-
+    dry_run = config.get("dry_run", False)
+    classifier = RuleBasedClassifier(categories)
     # Process each file
     for file_path in files:
         # Classify the file
-        category = classify_file(file_path)
+        record= FileRecord(file_path)
+        result = classifier.classify(record)
+        category = result.category
 
-        # Move the file safely to the destination
-        new_path = move_file(file_path, category, destination_directory)
-
-        # Log the action
-        log_action(file_path, category, new_path)
+        # Decide whether to move the file
+        if should_move(result):
+            if dry_run:
+                simulated_path = os.path.join(destination_directory, category, os.path.basename(file_path))
+                log_action(file_path, category, simulated_path, "DRY_RUN")
+            else:
+                new_path = move_file(file_path, category, destination_directory)
+                log_action(file_path, category, new_path, "MOVED")
+        else:
+            log_action(file_path, category, file_path, "SKIPPED")
 
     print("\n File(s) successfully organized!")
 

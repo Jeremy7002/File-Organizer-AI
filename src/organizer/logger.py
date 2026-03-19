@@ -13,13 +13,19 @@ def log_new_run():
         f.write("\n")  # Add a newline for separation
         f.write(f"--- New Run started at {datetime.now().strftime("%Y-%m-%d %H:%M:%S")} ---\n")
 
-def log_action(original_path, category, new_path):
+def log_action(original_path, category, new_path,action):
     """
     Appends a log entry with timestamp for a moved file.
     """
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-    entry = f"[{timestamp}] Moved '{original_path}' -> '{new_path}' (Category: {category})"
+    if action == "SKIPPED":
+        entry = f"[{timestamp}] {action} '{original_path}' (Low confidence)"
+    elif action == "DRY_RUN":
+        entry = f"[{timestamp}] {action} '{original_path}' -> '{new_path}' (Category: {category})"
+    else:
+        entry = f"[{timestamp}] {action} '{original_path}' -> '{new_path}' (Category: {category})"
 
     # Append entry to log file
     with open(LOG_FILE, "a",encoding="utf-8") as f:
-        f.write(entry+'\n')
+        f.write(entry+"\n")
+

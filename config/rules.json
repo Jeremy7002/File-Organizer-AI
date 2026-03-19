@@ -1,6 +1,6 @@
 {
-  "source_directory": "tests\\test_files",
-  "destination_directory": "tests\\organized_files",
+  "source_directory": "C:\\Users\\James\\OneDrive\\Jere",
+  "destination_directory": "C:\\Users\\James\\OneDrive\\Jere",
 
   "categories": {
     "Images": [".jpg", ".jpeg", ".png", ".gif"],
@@ -9,5 +9,6 @@
     "Videos": [".mp4",".avi",".mov",".webm",".mkv"],
     "Archives": [".zip", ".rar",".7z",".tar",".gz",".iso",".jar"],
     "Code": [".py", ".js",".html", ".css",".cpp", ".java", ".c",".cs",".rb",".go",".php",".ts"]
-  }
+  },
+  "dry_run": false
 }

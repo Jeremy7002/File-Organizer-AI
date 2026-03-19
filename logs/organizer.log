@@ -15,3 +15,73 @@
 [2026-03-14 11:19:28] Moved 'tests\test_files\demo.html' -> 'tests\organized_files\Code\demo.html' (Category: Code)
 [2026-03-14 11:19:28] Moved 'tests\test_files\phot.jpg' -> 'tests\organized_files\Images\phot.jpg' (Category: Images)
 [2026-03-14 11:19:28] Moved 'tests\test_files\video.mp4' -> 'tests\organized_files\Videos\video.mp4' (Category: Videos)
+--- New Run started at 2026-03-17 22:41:14 ---
+
+--- New Run started at 2026-03-17 22:42:14 ---
+[2026-03-17 22:42:14] Moved 'tests\test_files\demo.py' -> 'tests\organized_files\Code\demo.py' (Category: Code)
+[2026-03-17 22:42:14] Moved 'tests\test_files\influencer.mp4' -> 'tests\organized_files\Videos\influencer.mp4' (Category: Videos)
+[2026-03-17 22:42:14] Moved 'tests\test_files\manipulate.vty' -> 'tests\organized_files\Others\manipulate.vty' (Category: Others)
+[2026-03-17 22:42:14] Moved 'tests\test_files\myface.jpeg' -> 'tests\organized_files\Images\myface.jpeg' (Category: Images)
+[2026-03-17 22:42:14] Moved 'tests\test_files\notes.txt' -> 'tests\organized_files\Documents\notes.txt' (Category: Documents)
+[2026-03-17 22:42:14] Moved 'tests\test_files\phot.jpg' -> 'tests\organized_files\Images\phot.jpg' (Category: Images)
+[2026-03-17 22:42:14] Moved 'tests\test_files\report.pdf' -> 'tests\organized_files\Documents\report.pdf' (Category: Documents)
+[2026-03-17 22:42:14] Moved 'tests\test_files\video.mp4' -> 'tests\organized_files\Videos\video.mp4' (Category: Videos)
+
+--- New Run started at 2026-03-18 21:10:45 ---
+[2026-03-18 21:10:46] Moved 'tests\test_files\demo.cpp' -> 'tests\organized_files\Code\demo.cpp' (Category: Code)
+[2026-03-18 21:10:46] Skipped 'tests\test_files\mine.vty' (Low confidence)
+[2026-03-18 21:10:46] Moved 'tests\test_files\phoyo.jpg' -> 'tests\organized_files\Images\phoyo.jpg' (Category: Images)
+[2026-03-18 21:10:46] Moved 'tests\test_files\video.mp4' -> 'tests\organized_files\Videos\video.mp4' (Category: Videos)
+
+--- New Run started at 2026-03-18 21:12:48 ---
+[2026-03-18 21:12:48] DRY_RUN 'tests\test_files\demo.cpp' -> 'tests\organized_files\Code\demo.cpp' (Category: Code)
+[2026-03-18 21:12:48] SKIPPED 'tests\test_files\mine.vty' (Low confidence)
+[2026-03-18 21:12:48] DRY_RUN 'tests\test_files\phoyo.jpg' -> 'tests\organized_files\Images\phoyo.jpg' (Category: Images)
+[2026-03-18 21:12:48] DRY_RUN 'tests\test_files\video.mp4' -> 'tests\organized_files\Videos\video.mp4' (Category: Videos)
+
+--- New Run started at 2026-03-18 22:27:23 ---
+[2026-03-18 22:27:23] DRY_RUN 'tests\test_files\demo.cpp' -> 'tests\organized_files\Code\demo.cpp' (Category: Code)
+[2026-03-18 22:27:23] DRY_RUN 'tests\test_files\mine.vty' -> 'tests\organized_files\Others\mine.vty' (Category: Others)
+[2026-03-18 22:27:23] DRY_RUN 'tests\test_files\phoyo.jpg' -> 'tests\organized_files\Images\phoyo.jpg' (Category: Images)
+[2026-03-18 22:27:23] DRY_RUN 'tests\test_files\video.mp4' -> 'tests\organized_files\Videos\video.mp4' (Category: Videos)
+
+--- New Run started at 2026-03-18 22:41:31 ---
+[2026-03-18 22:41:32] MOVED 'tests\test_files\demo.cpp' -> 'tests\organized_files\Code\demo.cpp' (Category: Code)
+[2026-03-18 22:41:32] MOVED 'tests\test_files\mine.vty' -> 'tests\organized_files\Others\mine.vty' (Category: Others)
+[2026-03-18 22:41:32] MOVED 'tests\test_files\phoyo.jpg' -> 'tests\organized_files\Images\phoyo.jpg' (Category: Images)
+[2026-03-18 22:41:32] MOVED 'tests\test_files\video.mp4' -> 'tests\organized_files\Videos\video.mp4' (Category: Videos)
+
+--- New Run started at 2026-03-19 22:29:52 ---
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\12_Jeremy_SEC25CS189.mp3' -> 'C:\Users\James\OneDrive\Jere\Music\12_Jeremy_SEC25CS189.mp3' (Category: Music)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\ADAPTIVE SMART MATERIAL - TANGLISH.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\ADAPTIVE SMART MATERIAL - TANGLISH.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Communication Skills.pptx' -> 'C:\Users\James\OneDrive\Jere\Documents\Communication Skills.pptx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\CULTURAL List.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\CULTURAL List.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Curiosity - FLS Record.pptx' -> 'C:\Users\James\OneDrive\Jere\Documents\Curiosity - FLS Record.pptx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Debit Card - Jere.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\Debit Card - Jere.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\desktop.ini' -> 'C:\Users\James\OneDrive\Jere\Others\desktop.ini' (Category: Others)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\eng clip jere worked.mp4' -> 'C:\Users\James\OneDrive\Jere\Videos\eng clip jere worked.mp4' (Category: Videos)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\English Speech.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\English Speech.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\FLS record work content page.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\FLS record work content page.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\FLS record work front page.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\FLS record work front page.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\FLS record work.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\FLS record work.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Functional Life Skills Record front page.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\Functional Life Skills Record front page.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Functional Life Skills Record.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\Functional Life Skills Record.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\IEEE CS Society member.jpg' -> 'C:\Users\James\OneDrive\Jere\Images\IEEE CS Society member.jpg' (Category: Images)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Jere birth certificate.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\Jere birth certificate.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\JERE STUDENT DETAILS FORM Copy.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\JERE STUDENT DETAILS FORM Copy.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\JERE STUDENT DETAILS FORM.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\JERE STUDENT DETAILS FORM.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Jeremy_form_6.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\Jeremy_form_6.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\joy_of_computing_exam.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\joy_of_computing_exam.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\leave app - 27Jan26.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\leave app - 27Jan26.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\On Duty format.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\On Duty format.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\passport size pic Jere 2025 Dec.jpg' -> 'C:\Users\James\OneDrive\Jere\Images\passport size pic Jere 2025 Dec.jpg' (Category: Images)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\passport size pic Jere 2025 Dec.png' -> 'C:\Users\James\OneDrive\Jere\Images\passport size pic Jere 2025 Dec.png' (Category: Images)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\payment seminar fee Nov 2025.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\payment seminar fee Nov 2025.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\physics pract pic.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\physics pract pic.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\pic.txt' -> 'C:\Users\James\OneDrive\Jere\Documents\pic.txt' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\record for PSPC[1].pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\record for PSPC[1].pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\SARAS - idea.pptx' -> 'C:\Users\James\OneDrive\Jere\Documents\SARAS - idea.pptx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\SEC25CS189_Jeremy.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\SEC25CS189_Jeremy.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\STUDENT DETAILS FORM.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\STUDENT DETAILS FORM.pdf' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\Tech content - adpative smart material.docx' -> 'C:\Users\James\OneDrive\Jere\Documents\Tech content - adpative smart material.docx' (Category: Documents)
+[2026-03-19 22:29:52] MOVED 'C:\Users\James\OneDrive\Jere\UNSDG - exam.pdf' -> 'C:\Users\James\OneDrive\Jere\Documents\UNSDG - exam.pdf' (Category: Documents)
